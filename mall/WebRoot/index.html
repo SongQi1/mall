@@ -268,12 +268,11 @@
 
 	<script type="text/javascript">
 		 function myFun(result){
-		var cityName = result.name;
-		//map.setCenter(cityName);
-		$("#city").html(cityName);
-	}
-	var myCity = new BMap.LocalCity();
-	myCity.get(myFun);
+			var cityName = result.name;
+			$("#city").html(cityName);
+		}
+		var myCity = new BMap.LocalCity();
+		myCity.get(myFun);
 	</script>
 
 </body>
