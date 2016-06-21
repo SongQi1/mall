@@ -251,7 +251,7 @@ header {
 	background: url("../images/titarrowdown.png") no-repeat scroll center center / contain ;
 	 display: inline-block;
     height: 0.34rem;
-    width: 0.7rem;
+    width: 0.4rem;
     content:"";
 }
 .header-category{
@@ -975,14 +975,17 @@ header {
     border-top: 1px solid #eee;
     bottom: 0;
     left: 0;
-    margin: 0 auto;
-    max-width: 667px;
-    min-width: 300px;
+    text-align:center;
     position: fixed;
     right: 0;
     z-index: 100;
 }
 
+.actionbar footer{
+	margin: 0 auto;
+	max-width: 667px;
+    min-width: 300px;
+}
 
 .clearfix::before, .clearfix::after {
     content: " ";
@@ -992,7 +995,6 @@ header {
     clear: both;
 }
 
-
 .actionbar li {
     float: left;
     width: 25%;
@@ -1000,7 +1002,7 @@ header {
 
 
 .actionbar li a span {
-     font-size: 0.5rem;
+   	font-size: 0.5rem;
     height: 0.5rem;
     line-height: 0.5rem;
 }
@@ -1017,12 +1019,12 @@ header {
     background-position:  -12.3em -0.3em;
 }
 .actionbar li a::before {
-    background: rgba(0, 0, 0, 0) url("../images/icon55.png") no-repeat scroll 0 -0.3em / auto 6em;
+  /*  background: rgba(0, 0, 0, 0) url("../images/icon55.png") no-repeat scroll 0 -0.3em / auto 6em;*/
     content: "";
     display: block;
-    height: 2rem;
+    height: 1.5rem;
     margin: 0 auto;
-    width: 2rem;
+    width: 1.5rem;
 }
 .actionbar li.active a {
     color: #ca151e;
@@ -1031,4 +1033,8 @@ header {
     display: block;
     padding-top: 0.15rem;
     text-align: center;
+}
+
+.hr-178{
+	height: 3.3rem;
 }
